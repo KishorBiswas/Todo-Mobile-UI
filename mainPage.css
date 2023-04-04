@@ -15,7 +15,7 @@ nav{
     height: 70px;
     /* border: 1px solid #000; */
     line-height: 70px;
-    padding-left: 100px;
+    padding-left: 50px;
     position: relative;
     box-shadow: 5px 5px 10px gray;
 }
@@ -60,9 +60,15 @@ nav h1 span{
     line-height: 50px;
     border-radius: 50%;
     margin-right: 20px;
+    font-weight: 400;
     padding: 10px 12px;
     background-color: #00A5EC;
 }
+
+.addTask p b{
+    font-weight: 400;
+}
+
 
 .addTask p span i{
     color: #fff;
@@ -82,8 +88,8 @@ nav h1 span{
 }
 
 .todoCard{
-    width: 352px;
-    height: 360px;
+    width: 280px;
+    height: 330px;
     border: 2px solid #EDEDED;
     background-color: #FFFFFF;
     margin: 12px;
